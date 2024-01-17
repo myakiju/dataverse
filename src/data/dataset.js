@@ -1,378 +1,410 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+    id: "aloe-vera",
+    name: "Aloe Vera",
+    shortDescription:
+      "Suculenta conhecida por suas propriedades medicinais. Fácil de cuidar e adaptável.",
+    description:
+      "A Aloe Vera, também chamada de babosa, é uma suculenta pertencente à família Xanthorrhoeaceae. Originária do norte da África, esta planta é conhecida por suas folhas carnudas que armazenam um gel transparente com propriedades medicinais. Suas folhas apresentam margens serrilhadas e pequenos espinhos nas bordas. A Aloe Vera prefere sol pleno e solos bem drenados. Sua resistência à seca a torna uma escolha popular para jardineiros iniciantes. Além disso, ela é frequentemente utilizada em produtos de cuidados com a pele devido às suas propriedades hidratantes e calmantes.",
+    imageUrl: "https://example.com/aloe-vera.jpg",
+    facts: {
+      scientificName: "Aloe vera",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 14,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+    id: "spider-plant",
+    name: "Clorofito",
+    shortDescription:
+      "Planta fácil de cuidar, ótima para ambientes internos. Folia variegada e cascata elegante.",
+    description:
+      "O Clorofito, conhecido popularmente como 'planta-aranha', é uma escolha popular para aqueles que buscam uma planta fácil de cuidar, sendo especialmente indicado para ambientes internos. Originário da África do Sul, esta planta apresenta folhas verdes e variegadas, proporcionando um visual decorativo. Sua folhagem cascata adiciona um toque elegante a prateleiras e suportes suspensos. O Clorofito é altamente adaptável a diferentes condições de luz e solo, tornando-se uma opção versátil para jardineiros iniciantes. Além de sua estética agradável, essa planta tem a capacidade única de produzir pequenas plantas 'filhas' em suas hastes, adicionando um charme adicional ao ambiente.",
+    imageUrl: "https://example.com/spider-plant.jpg",
+    facts: {
+      scientificName: "Chlorophytum comosum",
+      sunExposure: "Luz indireta",
+      waterIntervalInDays: 7,
+      soilType: "Solo leve",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-    }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+    id: "snake-plant",
+    name: "Espada de São Jorge",
+    shortDescription:
+      "Planta resistente e de fácil manutenção. Ideal para purificar o ar em ambientes internos.",
+    description:
+      "A Espada de São Jorge, também conhecida como Sansevieria, é uma planta de folhas espessas e eretas. Originária da África tropical, ela é resistente e adaptável, sendo uma escolha popular para ambientes internos. Além de sua aparência decorativa, é conhecida por purificar o ar removendo toxinas. Suporta condições de pouca luz e períodos de seca, tornando-a uma opção prática e esteticamente agradável para espaços internos. Com folhas que se assemelham a espadas, essa planta adiciona uma dimensão única à decoração.",
+    imageUrl: "https://example.com/snake-plant.jpg",
+    facts: {
+      scientificName: "Sansevieria trifasciata",
+      sunExposure: "Luz indireta",
+      waterIntervalInDays: 14,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+    id: "rose",
+    name: "Rosa",
+    shortDescription:
+      "Flor clássica com diversas variedades e significados. Requintada e símbolo de amor.",
+    description:
+      "A Rosa, cientificamente conhecida como Rosa spp., é uma flor clássica que abrange uma vasta gama de variedades, cada uma com sua beleza única e significado simbólico. Originárias principalmente das regiões temperadas, as rosas são cultivadas em jardins em todo o mundo há séculos. Com uma diversidade de cores, formas e fragrâncias, são associadas a expressões de afeto e são frequentemente utilizadas em arranjos florais e eventos especiais. Suas características morfológicas incluem pétalas suaves e perfumadas, variando de tons vibrantes a suaves. Uma planta que transcende o aspecto estético, a rosa é um símbolo universal de amor e emoção.",
+    imageUrl: "https://example.com/rose.jpg",
+    facts: {
+      scientificName: "Rosa spp.",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 3,
+      soilType: "Solo rico em matéria orgânica",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+    id: "basil",
+    name: "Manjericão",
+    shortDescription:
+      "Erva aromática essencial na culinária. Fragrância intensa e variedades distintas.",
+    description:
+      "O Manjericão é uma erva aromática essencial na culinária, conhecida por sua fragrância intensa e variedades distintas. Originário da Índia, o manjericão é cultivado por suas folhas saborosas e propriedades medicinais. Prefere sol pleno e solo bem drenado, sendo ideal para cultivo em vasos e jardins. Além de suas aplicações culinárias, o manjericão é valorizado por suas propriedades anti-inflamatórias e antioxidantes, adicionando não apenas sabor, mas também benefícios à saúde em pratos diversos. Suas folhas verdes e aromáticas tornam-no uma adição indispensável a qualquer jardim ou horta.",
+    imageUrl: "https://example.com/basil.jpg",
+    facts: {
+      scientificName: "Ocimum basilicum",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 2,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+    id: "lemon-tree",
+    name: "Limoeiro",
+    shortDescription:
+      "Árvore frutífera com frutos cítricos. Requer sol pleno para um bom desenvolvimento.",
+    description:
+      "O Limoeiro é uma árvore frutífera conhecida por produzir frutos cítricos refrescantes e versáteis, amplamente utilizados na culinária e para preparo de bebidas. Originário do sudeste asiático, o limoeiro é apreciado por sua folhagem perene e pela abundância de limões amarelos ou verdes que oferece. Com um aroma característico, os limões são usados em uma variedade de pratos, desde sobremesas até pratos salgados. Essa árvore requer sol pleno para um desenvolvimento saudável e produtivo. Além de suas qualidades culinárias, o limoeiro também é valorizado por seu apelo estético em jardins e pomares.",
+    imageUrl: "https://example.com/lemon-tree.jpg",
+    facts: {
+      scientificName: "Citrus limon",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 10,
+      soilType: "Solo bem drenado e arejado",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+    id: "lavender",
+    name: "Lavanda",
+    shortDescription:
+      "Erva aromática com flores perfumadas. Ideal para jardins e sachês.",
+    description:
+      "A Lavanda é uma erva aromática conhecida por suas flores perfumadas e propriedades relaxantes. Originária do Mediterrâneo, ela é apreciada por seu aroma suave e suas flores violetas. Prefere sol pleno, solo bem drenado e clima ensolarado. Além de ser utilizada em jardins ornamentais, suas flores são colhidas para produção de óleos essenciais, sachês e produtos de cuidado pessoal. A Lavanda é uma adição encantadora para espaços ao ar livre, proporcionando beleza visual e benefícios aromáticos. Seu crescimento compacto a torna ideal para bordaduras e áreas de transição.",
+    imageUrl: "https://example.com/lavender.jpg",
+    facts: {
+      scientificName: "Lavandula spp.",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 3,
+      soilType: "Solo leve e bem drenado",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+    id: "orchid",
+    name: "Orquídea",
+    shortDescription:
+      "Flor exótica e elegante, apreciada por sua beleza única. Requer cuidados específicos.",
+    description:
+      "A Orquídea é uma planta fascinante e elegante, conhecida por suas flores exóticas que vão desde cores vibrantes até tons suaves e delicados. Originárias de diversas regiões do mundo, as orquídeas são apreciadas por sua beleza única e longa vida. No entanto, seu cultivo requer atenção especial, já que cada variedade pode ter requisitos específicos de luz, umidade e temperatura. Com uma grande diversidade de espécies, as orquídeas podem ser encontradas em ambientes tropicais, subtropicais e até mesmo em regiões temperadas. Seu cultivo, embora desafiador, é recompensador para entusiastas que buscam a beleza exótica e duradoura.",
+    imageUrl: "https://example.com/orchid.jpg",
+    facts: {
+      scientificName: "Orchidaceae",
+      sunExposure: "Luz indireta a luz filtrada",
+      waterIntervalInDays: 7,
+      soilType: "Mistura específica para orquídeas",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+    id: "mint",
+    name: "Hortelã",
+    shortDescription:
+      "Erva aromática com sabor refrescante. Ótima para chás e culinária.",
+    description:
+      "A Hortelã é uma erva aromática conhecida por seu sabor refrescante e aroma mentolado. Originária da Europa, ela prospera em condições de solo úmido e luz parcial. Famosa por ser utilizada em chás, bebidas, saladas e pratos culinários. Cresce rapidamente, então é recomendável cultivá-la em vasos para controle. Além de suas aplicações culinárias, a Hortelã possui propriedades medicinais, sendo conhecida por suas propriedades digestivas e relaxantes. Seu crescimento vigoroso a torna uma adição útil a jardins de ervas e hortas.",
+    imageUrl: "https://example.com/mint.jpg",
+    facts: {
+      scientificName: "Mentha spp.",
+      sunExposure: "Luz parcial",
+      waterIntervalInDays: 2,
+      soilType: "Solo úmido e bem drenado",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "cactus",
+    name: "Cacto",
+    shortDescription:
+      "Planta suculenta adaptada a climas áridos. Requer pouca água e é de fácil cuidado.",
+    description:
+      "O Cacto é uma planta suculenta notável por sua capacidade de prosperar em climas áridos, onde muitas outras plantas teriam dificuldade em sobreviver. Originários das regiões desérticas das Américas, os cactos são conhecidos por suas formas variadas e adaptações únicas, como espinhos que ajudam a minimizar a perda de água por transpiração. Essas plantas requintadas não apenas decoram paisagens áridas, mas também são apreciadas como plantas de interior de baixa manutenção. Com requisitos mínimos de água e cuidados simples, os cactos são escolhas ideais para entusiastas de plantas que buscam uma beleza resistente e única.",
+    imageUrl: "https://example.com/cactus.jpg",
+    facts: {
+      scientificName: "Cactaceae",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 14,
+      soilType: "Solo arenoso e bem drenado",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "strawberry-plant",
+    name: "Morangueiro",
+    shortDescription:
+      "Planta frutífera de pequeno porte. Produz morangos deliciosos.",
+    description:
+      "O Morangueiro, cientificamente conhecido como Fragaria x ananassa, é uma planta frutífera de pequeno porte apreciada por sua capacidade de produzir morangos deliciosos. Originário da Europa, o morangueiro é cultivado em todo o mundo devido ao seu valor culinário e sabor doce e refrescante. Suas folhas verdes e flores brancas adicionam um toque decorativo a jardins e vasos. O Morangueiro prospera em locais ensolarados e solo bem drenado. Com cuidados adequados, é possível desfrutar de uma colheita constante de morangos frescos durante a temporada de crescimento, tornando-o uma adição popular a hortas caseiras.",
+    imageUrl: "https://example.com/strawberry-plant.jpg",
+    facts: {
+      scientificName: "Fragaria x ananassa",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 3,
+      soilType: "Solo bem drenado e rico em matéria orgânica",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "night-blooming-jasmine",
+    name: "Dama da Noite",
+    shortDescription:
+      "Flor perfumada que desabrocha à noite. Ideal para jardins noturnos.",
+    description:
+      "A Dama da Noite, cientificamente conhecida como Cestrum nocturnum, é uma planta fascinante com flores perfumadas que desabrocham à noite. Originária de regiões tropicais, esta planta de folhas perenes é apreciada por seu aroma doce e envolvente. Suas flores brancas e tubulares liberam sua fragrância noturna, atraindo polinizadores. A Dama da Noite prospera em condições de sol pleno a parcial, com solo bem drenado. Ideal para jardins noturnos ou áreas ao ar livre onde se pode desfrutar de sua fragrância única durante as noites estreladas.",
+    imageUrl: "https://example.com/night-blooming-jasmine.jpg",
+    facts: {
+      scientificName: "Cestrum nocturnum",
+      sunExposure: "Sol pleno a luz parcial",
+      waterIntervalInDays: 3,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "desert-rose",
+    name: "Rosa do Deserto",
+    shortDescription:
+      "Planta suculenta com flores exóticas. Adapta-se a climas áridos.",
+    description:
+      "A Rosa do Deserto, cientificamente denominada Adenium obesum, é uma planta suculenta cativante conhecida por suas flores exóticas e adaptação a climas áridos. Originária do continente africano, esta planta desenvolve troncos espessos e suculentos, produzindo flores de cores vibrantes que podem variar de rosa a vermelho. A Rosa do Deserto é apreciada não apenas por sua beleza ornamental, mas também por sua capacidade de resistir a condições de seca. Seu cultivo requer sol pleno e solo arenoso bem drenado, sendo uma escolha ideal para jardins com um toque desértico.",
+    imageUrl: "https://example.com/desert-rose.jpg",
+    facts: {
+      scientificName: "Adenium obesum",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 14,
+      soilType: "Solo arenoso e bem drenado",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "ivy",
+    name: "Hera",
+    shortDescription:
+      "Planta trepadeira versátil. Foliage exuberante e crescimento rápido.",
+    description:
+      "A Hera, também conhecida como Hedera, é uma planta trepadeira versátil apreciada por seu foliage exuberante e crescimento rápido. Originária de diversas partes do globo, essa planta perene é frequentemente utilizada para cobrir estruturas verticais, muros e cercas. Com folhas de diferentes formas e cores, a Hera adiciona uma estética única a paisagens externas. Seu cultivo é adaptável a condições de luz parcial a sombra e solo bem drenado. A Hera é uma escolha popular para quem busca uma cobertura verde e duradoura em seus espaços externos.",
+    imageUrl: "https://example.com/ivy.jpg",
+    facts: {
+      scientificName: "Hedera",
+      sunExposure: "Luz parcial a sombra",
+      waterIntervalInDays: 7,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+    id: "fern",
+    name: "Samambaia",
+    shortDescription:
+      "Planta ornamental com folhas delicadas. Ideal para ambientes sombreados.",
+    description:
+      "A Samambaia é uma planta ornamental conhecida por suas folhas delicadas e exuberantes. Originária de regiões tropicais e subtropicais, ela é apreciada por sua capacidade de prosperar em ambientes sombreados e úmidos. As samambaias apresentam uma variedade de formas e tamanhos de folhas, adicionando uma estética única a jardins internos e externos. Requer solo úmido e bem drenado, sendo uma escolha popular para criar um ambiente verde e sereno em espaços sombreados. A Samambaia também é conhecida por sua capacidade de purificar o ar, tornando-a uma adição saudável ao ambiente interno.",
+    imageUrl: "https://example.com/fern.jpg",
+    facts: {
+      scientificName: "Pteridophyta",
+      sunExposure: "Sombra parcial a total",
+      waterIntervalInDays: 5,
+      soilType: "Solo úmido e bem drenado",
+      hasFlowers: false,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+    id: "lemongrass",
+    name: "Capim-limão",
+    shortDescription:
+      "Erva aromática com sabor cítrico. Utilizada na culinária e chás.",
+    description:
+      "O Capim-limão, também conhecido como Cymbopogon citratus, é uma erva aromática apreciada por seu sabor cítrico e aroma refrescante. Originário do Sudeste Asiático, é cultivado por suas folhas longas e estreitas, que são utilizadas na culinária, especialmente em pratos asiáticos, e na preparação de chás. Esta planta de fácil cultivo prospera em sol pleno e solo bem drenado. Além de suas aplicações culinárias, o Capim-limão é valorizado por suas propriedades medicinais, sendo associado a benefícios para a saúde digestiva e relaxamento.",
+    imageUrl: "https://example.com/lemongrass.jpg",
+    facts: {
+      scientificName: "Cymbopogon citratus",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 3,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+    id: "chamomile",
+    name: "Camomila",
+    shortDescription:
+      "Planta medicinal com flores delicadas. Infusões relaxantes e propriedades calmantes.",
+    description:
+      "A Camomila, também conhecida como Matricaria chamomilla, é uma planta medicinal apreciada por suas flores delicadas e propriedades calmantes. Originária da Europa e Ásia, ela é frequentemente utilizada na preparação de infusões relaxantes e chás devido aos seus efeitos suavizantes. A Camomila possui folhas finamente divididas e flores brancas semelhantes a margaridas. Cultivada em sol pleno a luz parcial e solo bem drenado, a Camomila é uma adição encantadora a jardins de ervas e áreas destinadas ao relaxamento. Além de suas propriedades medicinais, a Camomila adiciona uma beleza suave e serena ao ambiente.",
+    imageUrl: "https://example.com/chamomile.jpg",
+    facts: {
+      scientificName: "Matricaria chamomilla",
+      sunExposure: "Sol pleno a luz parcial",
+      waterIntervalInDays: 4,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+    id: "bougainvillea",
+    name: "Primavera",
+    shortDescription:
+      "Planta ornamental trepadeira com flores vibrantes. Ideal para jardins e cercas.",
+    description:
+      "A Primavera, cientificamente conhecida como Bougainvillea, é uma planta ornamental trepadeira conhecida por suas flores vibrantes e folhas coloridas. Originária do Brasil, ela é uma escolha popular para jardins e áreas onde se deseja adicionar um toque tropical. Suas flores, embora pequenas, são rodeadas por brácteas coloridas que proporcionam um espetáculo visual único. A Primavera é resistente e adapta-se bem a climas quentes e ensolarados. Com sua capacidade de cobrir cercas e paredes, esta planta adiciona um charme exuberante e colorido ao ambiente, especialmente durante os meses mais quentes do ano.",
+    imageUrl: "https://example.com/bougainvillea.jpg",
+    facts: {
+      scientificName: "Bougainvillea",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 7,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+    id: "yucca",
+    name: "Yuca",
+    shortDescription:
+      "Planta resistente com folhas rígidas e estética única. Adequada para ambientes ensolarados.",
+    description:
+      "A Yuca, também conhecida como Yucca, é uma planta resistente apreciada por suas folhas rígidas e estética única. Originária das regiões desérticas da América do Norte e América Central, a Yuca é adaptada a condições de solo seco e é conhecida por sua resistência. Suas folhas espessas e pontiagudas formam uma roseta distinta, adicionando um elemento arquitetônico a jardins e paisagens. A Yuca prospera em ambientes ensolarados e solo bem drenado. Além de sua beleza ornamental, algumas variedades de Yuca também produzem flores vistosas, tornando-a uma escolha versátil para paisagismo.",
+    imageUrl: "https://example.com/yucca.jpg",
+    facts: {
+      scientificName: "Yucca",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 14,
+      soilType: "Solo arenoso e bem drenado",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+    id: "violet",
+    name: "Violeta",
+    shortDescription:
+      "Planta de interior com flores delicadas. Ideal para decoração e presentes.",
+    description:
+      "A Violeta, pertencente ao gênero Saintpaulia, é uma planta de interior apreciada por suas flores delicadas e folhagem atraente. Originárias das regiões tropicais da África, as violetas tornaram-se populares em todo o mundo como plantas de decoração devido à sua natureza compacta e variedade de cores de flores disponíveis. Elas prosperam em ambientes internos com luz indireta e solo bem drenado. Além de sua beleza ornamental, as violetas têm um significado simbólico associado à lealdade e modéstia, tornando-as uma escolha encantadora para presentes e decoração residencial.",
+    imageUrl: "https://example.com/violet.jpg",
+    facts: {
+      scientificName: "Saintpaulia",
+      sunExposure: "Luz indireta",
+      waterIntervalInDays: 7,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+    id: "monstera",
+    name: "Costela de Adão",
+    shortDescription:
+      "Planta tropical com folhas recortadas. Adiciona um toque exótico a interiores.",
+    description:
+      "A Costela de Adão, cientificamente conhecida como Monstera deliciosa, é uma planta tropical caracterizada por suas folhas grandes e recortadas, que conferem um toque exótico a interiores. Originária das florestas tropicais da América Central, a Costela de Adão é conhecida por sua resistência e facilidade de cultivo. Suas folhas, que lembram uma costela, adicionam uma estética única a ambientes internos. Esta planta prospera em ambientes com luz indireta a moderada e solo bem drenado. Além de sua beleza ornamental, a Costela de Adão é símbolo de prosperidade e boa sorte.",
+    imageUrl: "https://example.com/monstera.jpg",
+    facts: {
+      scientificName: "Monstera deliciosa",
+      sunExposure: "Luz indireta a moderada",
+      waterIntervalInDays: 10,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+    id: "jasmine-mango",
+    name: "Jasmim-Manga",
+    shortDescription:
+      "Arbusto ornamental com flores perfumadas. Ideal para paisagismo e aromaterapia.",
+    description:
+      "O Jasmim-Manga, conhecido cientificamente como Plumeria alba, é um arbusto ornamental apreciado por suas flores perfumadas e beleza tropical. Originário da América Central e América do Sul, este arbusto é uma adição encantadora a jardins e paisagens, contribuindo com sua fragrância suave e flores delicadas. O Jasmim-Manga requer pleno sol e solo bem drenado para um crescimento saudável. Suas flores, que vão desde tons brancos a amarelos, atraem borboletas e polinizadores, tornando-o uma escolha popular para paisagismo. Além de sua beleza, o aroma das flores também o torna adequado para a aromaterapia, proporcionando uma experiência sensorial única.",
+    imageUrl: "https://example.com/jasmine-mango.jpg",
+    facts: {
+      scientificName: "Plumeria alba",
+      sunExposure: "Sol pleno",
+      waterIntervalInDays: 7,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+    id: "fiddle-leaf-fig",
+    name: "Figueira-lira",
+    shortDescription:
+      "Árvore de interior com folhas grandes e distintas. Adiciona elegância a ambientes internos.",
+    description:
+      "A Figueira-lira, cientificamente conhecida como Ficus lyrata, é uma árvore de interior que se destaca por suas folhas grandes, distintas e elegantes. Originária das florestas tropicais da África Ocidental, esta planta é apreciada por sua capacidade de adicionar uma presença majestosa a ambientes internos. Suas folhas em forma de violino e textura exuberante fazem da Figueira-lira uma escolha popular para design de interiores. Ela prospera em ambientes com luz indireta a moderada e solo bem drenado. Além de sua beleza ornamental, a Figueira-lira é associada a qualidades simbólicas como prosperidade e harmonia.",
+    imageUrl: "https://example.com/fiddle-leaf-fig.jpg",
+    facts: {
+      scientificName: "Ficus lyrata",
+      sunExposure: "Luz indireta a moderada",
+      waterIntervalInDays: 10,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: true,
     },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+    id: "prayer-plant",
+    name: "Maranta",
+    shortDescription:
+      "Planta de interior com folhas decorativas. Movimento noturno das folhas.",
+    description:
+      "A Maranta, também conhecida como Planta-Cebola, é uma planta de interior com folhas altamente decorativas e um fascinante movimento noturno. Originária das florestas tropicais da América do Sul, a Maranta é apreciada por suas folhas ovais com padrões distintos e cores vibrantes. Durante a noite, suas folhas se dobram para cima, daí o apelido 'planta oração'. Essa característica não apenas adiciona um elemento dinâmico à planta, mas também ajuda a preservar a umidade. A Maranta prospera em ambientes internos com luz indireta e solo bem drenado, sendo uma escolha encantadora para entusiastas de plantas de interior.",
+    imageUrl: "https://example.com/prayer-plant.jpg",
+    facts: {
+      scientificName: "Maranta",
+      sunExposure: "Luz indireta",
+      waterIntervalInDays: 7,
+      soilType: "Solo bem drenado",
+      hasFlowers: true,
+      hasFruits: false,
     },
-    "extraInfo": {
-      "imageSource": ""
-    }
-  }
+  },
 ];
