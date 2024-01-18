@@ -1,6 +1,7 @@
-import { example } from './dataFunctions.js';
-import { renderItems } from './view.js';
+//import { example } from "./dataFunctions.js";
+import { renderItems } from "./view.js";
 
-import data from './data/dataset.js';
+import data from "./data/dataset.js";
 
-console.log(example, renderItems(data), data);
+console.log(data);
+renderItems(data);
