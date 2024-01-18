@@ -6,14 +6,34 @@
 }
 
 .card {
-  width: 320px;
-  padding: 20px;
-  border: 1px solid #c9c9c9;
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 12px;
+  background: #fff;
 }
 
 .img-overflow {
   position: relative;
   overflow: hidden;
-  width: 100%;
-  height: 350px;
+  width: 280px;
+  height: 188px;
+  border-radius: 12px;
+}
+
+body {
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.plant-text {
+  color: #666;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Source Code Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 280px;
 }

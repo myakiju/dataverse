@@ -10,7 +10,7 @@ export const renderItems = (plants) => {
       cardImg.src = `./static/${plant.id}.jpg`;
       const h3Name = createElement("h3", card);
       h3Name.textContent = plant.name;
-      const pDescription = createElement("p", card);
+      const pDescription = createElement("p", card, "plant-text");
       pDescription.textContent = plant.shortDescription;
     });
   }
