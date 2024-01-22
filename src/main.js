@@ -1,7 +1,11 @@
-//import { example } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 
 import data from "./data/dataset.js";
 
-console.log(data);
-renderItems(data);
+const plantsContainer = document.getElementById("root");
+
+const getPlantList = (data) => {
+  plantsContainer.innerHTML = renderItems(data);
+};
+
+getPlantList(data);
