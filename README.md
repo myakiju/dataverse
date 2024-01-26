@@ -1,8 +1,13 @@
 # SOS Plantas
 
-![]("src/static/readme-icon.jpg" | width=100)
 
-Quem nunca matou uma plantinha sem querer porque não lembrava se ela precisava de muita ou pouca água? O SOS é um guia de consulta rápida para você ter sempre à mão as principais informações sobre suas plantas. Tempo de intervalo de rega, exposição ao sol, tipo de solo, tipo de adubo. Essas são algumas informações que você poderá consultar no SOS Plantas.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/myakiju/dataverse/blob/feat/update-readme/src/static/readme-icon.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/myakiju/dataverse/blob/feat/update-readme/src/static/readme-icon.jpg">
+  <img src="https://github.com/myakiju/dataverse/blob/feat/update-readme/src/static/readme-icon.jpg" width="250px">
+</picture>
+
+Quem nunca matou uma plantinha sem querer porque não lembrava se ela precisava de muita ou pouca água? O SOS Plantas é um guia de consulta rápida para você ter sempre à mão as principais informações sobre suas plantas. Tempo de intervalo de rega, exposição ao sol, tipo de solo, tipo de adubo. Essas são algumas informações que você poderá consultar no SOS Plantas.
 
 # Histórias de Usuário
 
