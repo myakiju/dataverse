@@ -1,6 +1,5 @@
 # SOS Plantas
 
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/myakiju/dataverse/blob/feat/update-readme/src/static/readme-icon.jpg">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/myakiju/dataverse/blob/feat/update-readme/src/static/readme-icon.jpg">
@@ -55,3 +54,11 @@ Como usuário, gostaria de filtrar a lista de plantas com base no tipo de solo p
 
 Os usuários devem ter opções de filtro para diferentes tipos de solo, como "argiloso", "arenoso" e "rico em matéria orgânica".
 A aplicação do filtro deve resultar em uma lista de plantas que preferem o tipo de solo selecionado.
+
+---
+
+# Engenharia de Prompt
+
+Para gerar os dados desse MVP foi utilizado o chatGPT.
+![Prompt ChatGPT](https://github.com/myakiju/dataverse/assets/5480273/9a98b1ee-2853-44c4-a406-9b2489039baa)
+![Resposta ChatGPT](https://github.com/myakiju/dataverse/assets/5480273/a85cb58e-085f-4eb5-9ac5-1b1ed9944721)
