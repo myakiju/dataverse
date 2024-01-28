@@ -62,3 +62,9 @@ A aplicação do filtro deve resultar em uma lista de plantas que preferem o tip
 Para gerar os dados desse MVP foi utilizado o chatGPT.
 ![Prompt ChatGPT](https://github.com/myakiju/dataverse/assets/5480273/9a98b1ee-2853-44c4-a406-9b2489039baa)
 ![Resposta ChatGPT](https://github.com/myakiju/dataverse/assets/5480273/a85cb58e-085f-4eb5-9ac5-1b1ed9944721)
+
+---
+# Wireframe
+Wireframe feito utilizando o Figma. 
+![Wireframe Desktop](https://github.com/myakiju/dataverse/assets/5480273/d36a7544-87a1-42dd-bbe7-228302e25b3e)
+
