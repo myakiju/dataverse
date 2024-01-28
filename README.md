@@ -64,7 +64,8 @@ Para gerar os dados desse MVP foi utilizado o chatGPT.
 ![Resposta ChatGPT](https://github.com/myakiju/dataverse/assets/5480273/a85cb58e-085f-4eb5-9ac5-1b1ed9944721)
 
 ---
-# Wireframe
-Wireframe feito utilizando o Figma. 
-![Wireframe Desktop](https://github.com/myakiju/dataverse/assets/5480273/d36a7544-87a1-42dd-bbe7-228302e25b3e)
 
+# Wireframe
+
+Wireframe feito utilizando o Figma.
+![Wireframe Desktop](https://github.com/myakiju/dataverse/assets/5480273/d36a7544-87a1-42dd-bbe7-228302e25b3e)
