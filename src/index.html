@@ -2,22 +2,46 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>SOS Plantas</title>
+    <title>Plants Whisperer</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <header>
-      <h1>SOS Plantas</h1>
-      <h2>Saiba do que sua plantinha precisa pra sobreviver</h2>
+      <img class="logo" src="static/logo.png" />
+      <div>
+        <h1>Plants Whisperer</h1>
+        <h2>A arte do cultivo em suas mãos.</h2>
+      </div>
     </header>
 
     <main>
+      <nav>
+        <section class="filters__section">
+          <label
+            for="filters"
+            id="search-filters"
+            class="filters__section__label"
+            >Filtrar por:</label
+          >
+          <select id="filters" name="filter-select" data-testid="filter-select">
+            <option value="Todos" selected>-- todos --</option>
+          </select>
+          <label for="order-name">Ordenar por Nome:</label>
+          <select id="order-name" name="order-name-select">
+            <option value="todos">-- todos --</option>
+            <option value="desc">Maior</option>
+            <option value="asc">Menor</option>
+          </select>
+          <label for="order-water">Ordenar por intervalo de rega:</label>
+          <select id="order-water" name="order-water-select">
+            <option value="todos">-- todos --</option>
+            <option value="desc">Maior</option>
+            <option value="asc">Menor</option>
+          </select>
+
+          <button id="clear" data-testid="clear">Limpar Filtros</button>
+        </section>
+      </nav>
       <section id="root"></section>
     </main>
     <footer><small>by Juliana Myaki</small></footer>

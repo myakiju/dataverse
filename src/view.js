@@ -15,3 +15,23 @@ export const renderItems = (plants) => {
   );
   return `<ul class="plants">${elements.join("")}</ul>`;
 };
+
+export const renderSunExposureOptions = (plants) => {
+  const elements = removeDuplicates(
+    plants.map((plant) => plant.facts.sunExposure)
+  );
+
+  elements.forEach(function (element) {
+    addOptions("filters", element);
+  });
+};
+
+function removeDuplicates(list) {
+  return list.sort().filter((item, index) => list.indexOf(item) === index);
+}
+
+function addOptions(parentId, optionValue) {
+  const parent = document.getElementById(parentId);
+  const option = new Option(optionValue);
+  parent.appendChild(option);
+}

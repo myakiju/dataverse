@@ -1,9 +1,6 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
-
-export const example = () => {
-  return 'example';
-};
-
-export const anotherExample = () => {
-  return [];
+export const filterPlants = (plants, filterBy, value) => {
+  const result = plants.filter((plant) =>
+    plant.facts[filterBy].includes(value)
+  );
+  return result;
 };
