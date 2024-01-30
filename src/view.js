@@ -7,8 +7,12 @@ export const renderItems = (plants) => {
                 <img itemprop="image" alt="${plant.name} - ${plant.shortDescription}" src="./static/${plant.id}.jpg" />
             </div>
             <div class="plants__card__info">
-              <h4 itemprop="name">${plant.name}</h4>
-              <p itemprop="description">${plant.shortDescription}</p>
+              <h4>${plant.name}</h4>
+              <p>${plant.shortDescription}</p>
+              <h5>Cuidados:</h5>
+              <p>Rega a cada ${plant.facts.waterIntervalInDays} dias.</p>
+              <p>${plant.facts.sunExposure}</p>
+              <p>${plant.facts.soilType}</p>
             </div>
           </li>
   `
