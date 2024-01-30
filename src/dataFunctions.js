@@ -1,4 +1,4 @@
-export const filterPlants = (plants, filterBy, value) => {
+export const filterBy = (plants, filterBy, value) => {
   const result = plants.filter((plant) =>
     plant.facts[filterBy].includes(value)
   );
@@ -22,4 +22,24 @@ export const orderByWaterDaysDesc = (a, b) => {
   return a.facts["waterIntervalInDays"] < b.facts["waterIntervalInDays"]
     ? 1
     : -1;
+};
+
+export const orderByName = (value, plantsData) => {
+  let orderedPlants = [];
+  if (value.includes("desc")) {
+    orderedPlants = plantsData.sort(orderByNameDesc);
+  } else {
+    orderedPlants = plantsData.sort(orderByNameAsc);
+  }
+  return orderedPlants;
+};
+
+export const computeStats = (plantsData) => {
+  const waterDays = plantsData.map((plant) =>
+    parseInt(plant.facts.waterIntervalInDays)
+  );
+  const totalWaterDays = waterDays.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+  }, 0);
+  return totalWaterDays / waterDays.lenght;
 };

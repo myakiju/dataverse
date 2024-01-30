@@ -7,12 +7,12 @@ export const renderItems = (plants) => {
                 <img itemprop="image" alt="${plant.name} - ${plant.shortDescription}" src="./static/${plant.id}.jpg" />
             </div>
             <div class="plants__card__info">
-              <h4>${plant.name}</h4>
-              <p>${plant.shortDescription}</p>
+              <h4 itemprop="name">${plant.name}</h4>
+              <p itemprop="shortDescription">${plant.shortDescription}</p>
               <h5>Cuidados:</h5>
-              <p>Rega a cada ${plant.facts.waterIntervalInDays} dias.</p>
-              <p>${plant.facts.sunExposure}</p>
-              <p>${plant.facts.soilType}</p>
+              <p itemprop="facts.waterIntervalInDays">Rega a cada ${plant.facts.waterIntervalInDays} dias.</p>
+              <p itemprop="facts.sunExposure">${plant.facts.sunExposure}</p>
+              <p itemprop="facts.soilType">${plant.facts.soilType}</p>
             </div>
           </li>
   `
@@ -26,7 +26,7 @@ export const renderSunExposureOptions = (plants) => {
   );
 
   elements.forEach(function (element) {
-    addOptions("filters", element);
+    addOptions("select-filter", element);
   });
 };
 
@@ -35,7 +35,7 @@ function removeDuplicates(list) {
 }
 
 function addOptions(parentId, optionValue) {
-  const parent = document.getElementById(parentId);
+  const parent = document.querySelector(`#${parentId}`);
   const option = new Option(optionValue);
   parent.appendChild(option);
 }

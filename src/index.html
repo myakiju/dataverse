@@ -18,24 +18,35 @@
       <nav>
         <section class="filters__section">
           <label
-            for="filters"
+            for="select-filter"
             id="search-filters"
             class="filters__section__label"
             >Filtrar por:</label
           >
-          <select id="filters" name="filter-select" data-testid="filter-select">
+          <select
+            data-testid="select-filter"
+            id="select-filter"
+            name="filter-select"
+            data-testid="filter-select"
+          >
             <option value="todos" selected>-- todos --</option>
           </select>
-          <label for="order">Ordenar por:</label>
-          <select id="order" name="order-select">
+          <label for="select-sort">Ordenar por:</label>
+          <select data-testid="select-sort" id="select-sort" name="sort-order">
             <option value="todos">--</option>
-            <option value="name-asc">Nome (A-Z)</option>
-            <option value="name-desc">Nome (Z-A)</option>
-            <option value="water-asc">Mais água</option>
-            <option value="water-desc">Menos água</option>
+            <option value="asc">Nome (A-Z)</option>
+            <option value="desc">Nome (Z-A)</option>
+            <!-- <option value="water-asc">Mais água</option>
+            <option value="water-desc">Menos água</option> -->
           </select>
 
-          <button id="clear" data-testid="clear">Limpar Filtros</button>
+          <button
+            data-testid="button-clear"
+            id="button-clear"
+            data-testid="clear"
+          >
+            Limpar Filtros
+          </button>
         </section>
       </nav>
       <section id="root"></section>

@@ -1,59 +1,45 @@
 import { renderItems, renderSunExposureOptions } from "./view.js";
-import {
-  filterPlants,
-  orderByNameAsc,
-  orderByWaterDaysAsc,
-  orderByNameDesc,
-  orderByWaterDaysDesc,
-} from "./dataFunctions.js";
+import { filterBy, orderByName, computeStats } from "./dataFunctions.js";
 
 import data from "./data/dataset.js";
 
-const plantsContainer = document.getElementById("root");
+const plantsContainer = document.querySelector("#root");
+const selectFilter = document.querySelector("#select-filter");
+const selectSort = document.querySelector("#select-sort");
 
-const getPlantList = (data) => {
+const renderPlantsList = (data) => {
   plantsContainer.innerHTML = renderItems(data);
 };
 
-getPlantList(data);
+renderPlantsList(data);
 renderSunExposureOptions(data);
+computeStats(data);
 
-document.getElementById("filters").addEventListener("change", (e) => {
+selectFilter.addEventListener("change", (e) => {
   let plantsData = [...data];
   const value = e.target.value;
   if (value !== "todos") {
-    plantsData = filterPlants(data, "sunExposure", value);
+    plantsData = filterBy(data, "sunExposure", value);
   }
   plantsContainer.innerHTML = "";
-  getPlantList(plantsData);
+  renderPlantsList(plantsData);
 });
 
-document.getElementById("order").addEventListener("change", (e) => {
+selectSort.addEventListener("change", (e) => {
   const plantsData = [...data];
   let orderedPlants = [];
   const value = e.target.value;
-  if (value.includes("name")) {
-    if (value.includes("desc")) {
-      orderedPlants = plantsData.sort(orderByNameDesc);
-    } else {
-      orderedPlants = plantsData.sort(orderByNameAsc);
-    }
-  } else if (value.includes("water")) {
-    if (value.includes("desc")) {
-      orderedPlants = plantsData.sort(orderByWaterDaysDesc);
-    } else {
-      orderedPlants = plantsData.sort(orderByWaterDaysAsc);
-    }
-  }
+
+  orderedPlants = orderByName(value, plantsData);
 
   plantsContainer.innerHTML = "";
-  getPlantList(orderedPlants);
+  renderPlantsList(orderedPlants);
 });
 
-document.getElementById("clear").addEventListener("click", () => {
-  document.getElementById("filters").value = "todos";
-  document.getElementById("order").value = "todos";
+document.getElementById("button-clear").addEventListener("click", () => {
+  selectFilter.value = "todos";
+  selectSort.value = "todos";
   const plantsData = [...data];
   plantsContainer.innerHTML = "";
-  getPlantList(plantsData);
+  renderPlantsList(plantsData);
 });
