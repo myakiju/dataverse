@@ -4,10 +4,10 @@ export const renderItems = (plants) => {
       plant
     ) => `<li class="plants__card" data-id="${plant.id}" itemscope itemtype="https://schema.org/Thing">
             <div class="plants__card__image">
-                <img itemprop="image" alt="${plant.name} - ${plant.shortDescription}" src="./static/${plant.id}.jpg" />
+                <img alt="${plant.name} - ${plant.shortDescription}" src="./static/${plant.id}.jpg" />
             </div>
             <div class="plants__card__info">
-              <h4 itemprop="name">${plant.name}</h4>
+              <h4 itemprop="sort-order">${plant.name}</h4>
               <p itemprop="shortDescription">${plant.shortDescription}</p>
               <h5>Cuidados:</h5>
               <p itemprop="facts.waterIntervalInDays">Rega a cada ${plant.facts.waterIntervalInDays} dias.</p>

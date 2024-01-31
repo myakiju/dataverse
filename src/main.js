@@ -6,6 +6,7 @@ import data from "./data/dataset.js";
 const plantsContainer = document.querySelector("#root");
 const selectFilter = document.querySelector("#select-filter");
 const selectSort = document.querySelector("#select-sort");
+let filteredData = [];
 
 const renderPlantsList = (data) => {
   plantsContainer.innerHTML = renderItems(data);
@@ -16,21 +17,29 @@ renderSunExposureOptions(data);
 computeStats(data);
 
 selectFilter.addEventListener("change", (e) => {
-  let plantsData = [...data];
+  if (filteredData.length === 0) {
+    filteredData = [...data];
+  }
+
   const value = e.target.value;
   if (value !== "todos") {
-    plantsData = filterBy(data, "sunExposure", value);
+    filteredData = filterBy(data, "sunExposure", value);
+  } else {
+    filteredData = [...data];
   }
   plantsContainer.innerHTML = "";
-  renderPlantsList(plantsData);
+  renderPlantsList(filteredData);
 });
 
 selectSort.addEventListener("change", (e) => {
-  const plantsData = [...data];
+  if (filteredData.length === 0) {
+    filteredData = [...data];
+  }
+
   let orderedPlants = [];
   const value = e.target.value;
 
-  orderedPlants = orderByName(value, plantsData);
+  orderedPlants = orderByName(value, filteredData);
 
   plantsContainer.innerHTML = "";
   renderPlantsList(orderedPlants);
@@ -40,6 +49,7 @@ document.getElementById("button-clear").addEventListener("click", () => {
   selectFilter.value = "todos";
   selectSort.value = "todos";
   const plantsData = [...data];
+  filteredData = [];
   plantsContainer.innerHTML = "";
   renderPlantsList(plantsData);
 });
