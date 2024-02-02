@@ -969,25 +969,25 @@ Quando estiver pronta para codificar, sugerimos que comece assim:
 
 Antes de agendar seu Feedback do Projeto com um coach, assegure-se de que seu projeto:
 
-* [ ] Cumpre todos os critérios mínimos de aceitação ao executar `npm run test:oas`
-* [ ] Cumpre todos os testes _end to end_ ao executar `npm run test:e2e`
-* [ ] Cumpre todos os testes unitários ao executar `npm run test` e
+* [x] Cumpre todos os critérios mínimos de aceitação ao executar `npm run test:oas`
+* [x] Cumpre todos os testes _end to end_ ao executar `npm run test:e2e`
+* [x] Cumpre todos os testes unitários ao executar `npm run test` e
   que têm uma cobertura de 70% de _statements_ (_sentenças_),
   _functions_ (_funções_), _lines_ (_linhas_), e _branches_
-* [ ] Está livre de _erros_ de `eslint` ao executar `npm run pretest`
+* [x] Está livre de _erros_ de `eslint` ao executar `npm run pretest`
 * [ ] Está enviado no GitHub e publicado no GitHub Pages
-* [ ] Captura de tela do prompt utilizado para gerar os dados.
+* [x] Captura de tela do prompt utilizado para gerar os dados.
 * Tem um `README.md` com o seguinte:
-  - [ ] _Definição do produto_ clara e informativa
-  - [ ] Histórias de usuário
-  - [ ] Um _Design da Interface de Usuário_ (protótipo de alta fidelidade)
+  - [x] _Definição do produto_ clara e informativa
+  - [x] Histórias de usuário
+  - [x] Um _Design da Interface de Usuário_ (protótipo de alta fidelidade)
   - [ ] A lista de problemas que você detectou por meio de testes
     de usabilidade no `README.md`
 * Tem uma UI que cumpre as funcionalidades:
-  - [ ] Mostra lista com dados e/ou indicadores
-  - [ ] Permite ordenar dados por um ou mais campos (ascendente e descendente)
-  - [ ] Permite filtrar dados com base em uma condição
-  - [ ] Permite limpar os filtros com um botão
+  - [x] Mostra lista com dados e/ou indicadores
+  - [x] Permite ordenar dados por um ou mais campos (ascendente e descendente)
+  - [x] Permite filtrar dados com base em uma condição
+  - [x] Permite limpar os filtros com um botão
   - [ ] É _responsiva_
 
 Lembre-se de fazer uma autoavaliação de _objetivos de aprendizado_ e
