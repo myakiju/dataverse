@@ -1,3 +1,5 @@
+[![Playwright Tests](https://github.com/myakiju/dataverse/actions/workflows/playwright.yml/badge.svg)](https://github.com/myakiju/dataverse/actions/workflows/playwright.yml)
+
 # Plants Whisperer
 
 <picture>
