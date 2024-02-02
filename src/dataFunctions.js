@@ -12,19 +12,7 @@ export const orderByNameDesc = (a, b) => {
   return a.name.localeCompare(b.name) * -1;
 };
 
-export const orderByWaterDaysAsc = (a, b) => {
-  return a.facts["waterIntervalInDays"] < b.facts["waterIntervalInDays"]
-    ? -1
-    : 1;
-};
-
-export const orderByWaterDaysDesc = (a, b) => {
-  return a.facts["waterIntervalInDays"] < b.facts["waterIntervalInDays"]
-    ? 1
-    : -1;
-};
-
-export const orderByName = (value, plantsData) => {
+export const sortData = (value, plantsData) => {
   let orderedPlants = [];
   if (value.includes("desc")) {
     orderedPlants = plantsData.sort(orderByNameDesc);
@@ -41,5 +29,7 @@ export const computeStats = (plantsData) => {
   const totalWaterDays = waterDays.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
   }, 0);
-  return totalWaterDays / waterDays.lenght;
+  console.log("totalWaterDays " + totalWaterDays);
+  console.log("waterDays.length " + waterDays.length);
+  return totalWaterDays / waterDays.length;
 };
