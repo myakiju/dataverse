@@ -1,5 +1,5 @@
 import { renderItems, renderSunExposureOptions } from "./view.js";
-import { filterBy, orderByName, computeStats } from "./dataFunctions.js";
+import { filterBy, sortData, computeStats } from "./dataFunctions.js";
 
 import data from "./data/dataset.js";
 
@@ -39,7 +39,7 @@ selectSort.addEventListener("change", (e) => {
   let orderedPlants = [];
   const value = e.target.value;
 
-  orderedPlants = orderByName(value, filteredData);
+  orderedPlants = sortData(value, filteredData);
 
   plantsContainer.innerHTML = "";
   renderPlantsList(orderedPlants);
