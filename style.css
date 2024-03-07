@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio&family=Noto+Sans:ital,wght@0,400;0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Noto Sans Display", sans-serif;
+  background-color: rgb(140, 177, 140);
+  margin: 0;
+}
+
+header {
+  background-color: #1f4332;
+  color: #fefefe;
+  width: 100%;
+  top: 0;
+  height: 200px;
+  display: flex;
+  align-content: baseline;
+  align-items: center;
+  gap: 15px;
+}
+
+nav > section > select {
+  margin-right: 20px;
+}
+
+header > div > h1,
+h2 {
+  padding: 5px;
+  font-family: "Antonio", sans-serif;
+}
+
+.logo {
+  max-width: 200px;
+  max-height: 200px;
+  border-left: 20px;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.plants {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: center;
+}
+
+.plants__card {
+  display: flex;
+  flex-flow: column wrap;
+  width: min-content;
+  background-color: rgb(248, 240, 230);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.plants__card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.plants__card__image {
+  max-height: 100%;
+  min-width: 100%;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.plants__card__image > img {
+  border-radius: 10px;
+}
+
+.plants__card__info {
+  width: fit-content;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.plants__card__info > h4 {
+  margin-bottom: 8px;
+  font-size: larger;
+}
+
+.plants__card__info > h5 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.filters__section {
+  padding: 20px;
+  display: flex;
+  align-content: flex-start;
+  gap: 10px;
+}
+
+main {
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+@media (max-width: 900px) {
+  .plants {
+    flex-direction: column;
+    align-items: center;
+  }
+}

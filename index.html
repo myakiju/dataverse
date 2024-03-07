@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Plants Whisperer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="static/logo.png" />
+      <div>
+        <h1>Plants Whisperer</h1>
+        <h2>A arte do cultivo em suas mãos.</h2>
+      </div>
+    </header>
+
+    <main>
+      <nav>
+        <section class="filters__section">
+          <label
+            for="select-filter"
+            id="search-filters"
+            class="filters__section__label"
+            >Filtrar por:</label
+          >
+          <select
+            data-testid="select-filter"
+            id="select-filter"
+            name="filter-select"
+          >
+            <option value="todos" selected>-- todos --</option>
+          </select>
+          <label for="select-sort">Ordenar por:</label>
+          <select data-testid="select-sort" id="select-sort" name="sort-order">
+            <option value="todos">--</option>
+            <option value="asc">Nome (A-Z)</option>
+            <option value="desc">Nome (Z-A)</option>
+            <!-- <option value="water-asc">Mais água</option>
+            <option value="water-desc">Menos água</option> -->
+          </select>
+
+          <button
+            data-testid="button-clear"
+            id="button-clear"
+            data-testid="clear"
+          >
+            Limpar Filtros
+          </button>
+        </section>
+      </nav>
+      <section id="root"></section>
+    </main>
+    <footer><small>by Juliana Myaki</small></footer>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
