@@ -8,6 +8,8 @@ describe("filterData test - valida busca por um campo específico", () => {
 
     const result = filterBy(fakeData, filterField, value);
 
+    console.log("teste github Actions");
+
     expect(result).toHaveLength(2);
     expect(
       result.every((plant) => plant.facts[filterField].includes(value))
